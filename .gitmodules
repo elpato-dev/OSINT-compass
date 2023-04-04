@@ -1,0 +1,3 @@
+[submodule "OSINT-compass-engine"]
+	path = OSINT-compass-engine
+	url = https://github.com/elpato-dev/OSINT-compass-engine.git

@@ -1,3 +1,6 @@
 [submodule "OSINT-compass-engine"]
 	path = OSINT-compass-engine
 	url = https://github.com/elpato-dev/OSINT-compass-engine.git
+[submodule "OSINT-compass-portal"]
+	path = OSINT-compass-portal
+	url = https://github.com/elpato-dev/OSINT-compass-portal.git

@@ -9,4 +9,4 @@ This repository includes two submodules: the `OSINT-compass-engine` and the `OSI
 To use OSINT Compass, please clone the repository and initialize the submodules. For more information, please refer to the documentation included in each submodule.
 
 ## Contributors
-This project was developed by her0marodeur, elutac and FlexusDev. We welcome contributions from the open-source community. If you have any questions or suggestions, please feel free to open an issue or submit a pull request. Thank you for your interest in OSINT Compass!
+This project was developed by [@her0marodeur](https://github.com/her0marodeur), [@elutac](https://github.com/elutac) and [@FlexusDev](https://github.com/FlexusDev). We welcome contributions from the open-source community. If you have any questions or suggestions, please feel free to open an issue or submit a pull request. Thank you for your interest in OSINT Compass!

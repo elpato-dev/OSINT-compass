@@ -10,10 +10,10 @@ The tool consists of the following parts:
 - a web interface (allows the user to interact with all the tools in a GUI)
   - written in Angular
 - a database for storing the alerts
- - currently Postgresql
+  - currently Postgresql
 - an alert cron job
- - has to be configured to run periodically to check the database for alerts and send alerts out, when the criteria is met
- - written in Python
+  - has to be configured to run periodically to check the database for alerts and send alerts out, when the criteria is met
+  - written in Python
 
 The following image tries to illustrate the architecture
 

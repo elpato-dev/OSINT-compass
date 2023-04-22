@@ -31,7 +31,7 @@ The start page provides a search bar with three buttons below:
      - get results form different sources
      - currently pingutils and spycloud since they need no API key and have no rate limiting
      - can be easily extended with other sources like emailrep and HaveIBeenPwned
-- domain: enter a domains in the format `domain.com`
+- domain: enter a domain in the format `domain.com`
      - get results form different sources
      - currently checks for robots.txt, subdomains and if it is listed on the waybackmachine
      - can be easily extended with other sources

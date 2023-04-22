@@ -72,4 +72,4 @@ The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass t
 
 The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. 
 
-The OSINT-compass-API-cron submodule includes a Python script thought to be run as a cron job to send alerts. Currently it is implemented as an API to allow tesing of the alerting functionality.
+The `OSINT-compass-API-cron` submodule includes a Python script thought to be run as a cron job to send alerts. Currently it is implemented as an API to allow tesing of the alerting functionality.

@@ -23,7 +23,7 @@ The following image tries to illustrate the architecture
 
 First here is another beautiful image of how our modules are integrated with eachother:
 
-![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/architecture.PNG](https://github.com/elpato-dev/OSINT-compass/blob/main/images/modules_engine.PNG)
+![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/architecture.PNG)
 
 The arrows show which module feeds data to which other module.
 

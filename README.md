@@ -13,6 +13,10 @@ Its main purpose is to allow organizations to provide an easy to use, easy to ex
 ## Usage
 The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.
 
+## Extending the tool
+
+The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/edit/main/extension_guide.md).
+
 ## Installation
 Installation currently is not very easy, since the tool consists of multiple services deployed on render.com and docker containers. A hosted instance can be found here: https://osint-compass-portal.onrender.com
 
@@ -21,10 +25,6 @@ Basically what you would do is take the submodules and deploy them to render.com
 For alerting you need to deploy a Postgresql datbase on render. Additionally you need something that can run cron jobs (on render they are paid only) and run the OSINT-compass-alert-cron in what ever intervall you want it to send out alerts. 
 
 To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
-
-## Extending the tool
-
-The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/edit/main/extension_guide.md).
 
 ## Additional Information
 Future ideas:

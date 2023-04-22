@@ -35,6 +35,7 @@ Future ideas:
 Limitations:
 - Self hosting the tool is possible but was not documented during the bellingcat hackathon, since it is currently quite some effort.
 - I would suspect the tool to have at least some security vulnerabilities. We tried to do our best, but please do not provide very sensitive information to it.
+- The sentiment score currently seems to have a low range, so do not really expect to see one above 0.3 or below 0.3 . 
 - The tweets are currently not filtered by relevance so you might see some offensive material... sorry...
 
 Archictecture principles:

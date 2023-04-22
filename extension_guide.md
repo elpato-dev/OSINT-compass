@@ -27,7 +27,7 @@ First here is another beautiful image of how our modules are integrated with eac
 
 The arrows show which module feeds data to which other module.
 
-For you to implement a tool or API into OSINT-compass you should first add an API endpoint in the main.py.
+For you to implement a tool or API into OSINT-compass you should first add an API endpoint in the [main.py](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/main.py).
 
 Let's look at the email endpoint for example:
 

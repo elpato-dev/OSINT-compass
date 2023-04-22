@@ -38,7 +38,7 @@ def email_endpoint():
     email = request.args.get('email') # get the args you need
     if not email: 
         return jsonify({'error': 'email argument is required.'}), 400 # do some error handling (check if required args are there)
-    result = get_email_data(email) # call the method for data collection and get result (is available bc of from emailgetter import get_email_data at the top)
+    result = get_email_data(email) # call the method for data collection and get result (is available bc of "from emailgetter import get_email_data" at the top)
     return jsonify(result) # returns the result you retrieved as JSON as response to the request
 ```
 

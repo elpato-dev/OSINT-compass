@@ -8,7 +8,7 @@ OSINT Compass is a tool that allows users to collect, monitor, and analyze open-
 
 Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. If you want you can also selfhost it (not straight forward yet).
 
- We would absolutely love, if you would integrate your own tools or APIs into it. <3 
+ We would absolutely love, if you would integrate your own tools or APIs into OSINT-compass. <3 
 
 ## Usage
 The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.

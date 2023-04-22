@@ -58,7 +58,7 @@ Future ideas:
 Limitations:
 - Self hosting the tool is possible but was not documented during the bellingcat hackathon, since it is currently quite some effort.
 - I would suspect the tool to have at least some security vulnerabilities. We tried to do our best, but please do not provide very sensitive information to it.
-- The sentiment score currently seems to have a low range, so do not really expect to see one above 0.3 or below 0.3 . 
+- The sentiment score currently seems to have a low range, so do not really expect to see one above 0.3 or below -0.3 . 
 - The tweets are currently not filtered by relevance so you might see some offensive material... sorry...
 
 Archictecture principles:
@@ -66,4 +66,4 @@ Archictecture principles:
 - If you are only after data collection automation you could also use the API as a standalone service.
 
 ## Submodules
-This repository includes three submodules: the `OSINT-compass-engine`, `OSINT-compass-portal` and `OSINT-compass-API-cron` modules. The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass tool, which handles the data storage, processing, and analysis. The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. The OSINT-compass-API-cron submodule includes Cron Jobs for alerting.
+This repository includes three submodules: the `OSINT-compass-engine`, `OSINT-compass-portal` and `OSINT-compass-API-cron` modules. The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass tool, which handles the API, data retrieval and storage, processing, and analysis. The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. The OSINT-compass-API-cron submodule includes Cron Jobs for alerting.

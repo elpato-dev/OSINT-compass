@@ -33,7 +33,7 @@ Let's look at the email endpoint for example:
 
 ```text
 @app.route('/email', methods=['GET']) #define the endpoint and method
-@require_api_key # protects it with the apikey so request has to include apikey=<apikey
+@require_api_key # protects it with the apikey so request has to include apikey=<apikey>
 def email_endpoint(): 
     email = request.args.get('email') # get the args you need
     if not email: 

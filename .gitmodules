@@ -9,3 +9,5 @@
 [submodule "OSINT-compass-alert-cron"]
 	path = OSINT-compass-alert-cron
 	url = https://github.com/elpato-dev/OSINT-compass-alert-cron.git
+[submodule "OSINT-compass-API-cron"]
+	branch = main

@@ -54,6 +54,7 @@ Future ideas:
 - implement a single Docker image to make self hosting easier
 - add more tools and make the current ones more extensive
 - timelines of sentiment score
+- add subjectivity score from TextBlob
 
 Limitations:
 - Self hosting the tool is possible but was not documented during the bellingcat hackathon, since it is currently quite some effort.

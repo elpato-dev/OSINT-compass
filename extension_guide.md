@@ -98,7 +98,7 @@ It will create a simple card style layout in the frontend.:
 
         ]
     } 
-```text
+```
 
 Note that this card has not much formatting besides title and content, so please do not put too much stuff into the content.
 

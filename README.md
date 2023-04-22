@@ -6,7 +6,9 @@ This project was developed by [@her0marodeur](https://github.com/her0marodeur), 
 ## Tool Description
 OSINT Compass is a tool that allows users to collect, monitor, and analyze open-source information from various sources. It provides an integrated search engine to gather relevant information and a sentiment monitoring interface.
 
-Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. 
+Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. If you want you can also selfhost it (not straight forward yet).
+
+ We would absolutely love, if you would integrate your own tools or APIs into it. <3 
 
 ## Usage
 The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.
@@ -20,6 +22,9 @@ For alerting you need to deploy a Postgresql datbase on render. Additionally you
 
 To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
 
+##Extending the tool
+
+The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/edit/main/extension_guide.md).
 
 ## Additional Information
 Future ideas:

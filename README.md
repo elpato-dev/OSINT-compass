@@ -25,10 +25,12 @@ To simplify this process in the future we plan on releasing a Docker image, that
 Future ideas:
 - implement a single Docker image to make self hosting easier
 - add more tools and make the current ones more extensive
+- timelines of sentiment score
 
 Limitations:
 - Self hosting the tool is possible but was not documented during the bellingcat hackathon, since it is currently quite some effort.
 - I would suspect the tool to have at least some security vulnerabilities. We tried to do our best, but please do not provide very sensitive information to it.
+- The tweets are currently not filtered by relevance so you might see some offensive material... sorry...
 
 Archictecture principles:
 - The tool aims to be very modular, to allow anyone to integrate a GUI for their tool or API into OSINT-compass.
@@ -36,6 +38,3 @@ Archictecture principles:
 
 ## Submodules
 This repository includes three submodules: the `OSINT-compass-engine`, `OSINT-compass-portal` and `OSINT-compass-API-cron` modules. The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass tool, which handles the data storage, processing, and analysis. The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. The OSINT-compass-API-cron submodule includes Cron Jobs for alerting.
-
-To use OSINT Compass, please clone the repository and initialize the submodules. For more information, please refer to the documentation included in each submodule.
-

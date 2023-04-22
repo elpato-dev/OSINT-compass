@@ -113,7 +113,7 @@ https://<apiurl>/<name of your endpoint>?<query param>=<value of param>&apikey=<
 When the frontend application is receiving a JSOn input like shown above it has the ability to loop through all the JSON objects in the sources list.
 It will create a card for each JSON object. The title will be used as the title for the card. The frontend will try to unravel to JSON in `content` and find a way to display it nicely.
 
-The following example tries to highlight this:
+The following example shows how it will be done:
 
 ![card_creation](https://github.com/elpato-dev/OSINT-compass/blob/main/images/card_creation.png)
 

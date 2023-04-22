@@ -104,5 +104,7 @@ Note that this card has not much formatting besides title and content, so please
 
 And that is it, the API is now exposing your tool:
 
+```text
 https://<apiurl>/<name of your endpoint>?<query param>=<value of param>&apikey=<your api key>
+```
 

@@ -8,6 +8,9 @@ OSINT Compass is a tool that allows users to collect, monitor, and analyze open-
 
 Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. 
 
+## Usage
+The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.
+
 ## Installation
 Installation currently is not very easy, since the tool consists of multiple services deployed on render.com and docker containers. A hosted instance can be found here: https://osint-compass-portal.onrender.com
 
@@ -17,8 +20,6 @@ For alerting you need to deploy a Postgresql datbase on render. Additionally you
 
 To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
 
-## Usage
-The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.
 
 ## Additional Information
 Future ideas:

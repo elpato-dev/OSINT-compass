@@ -22,7 +22,7 @@ For alerting you need to deploy a Postgresql datbase on render. Additionally you
 
 To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
 
-##Extending the tool
+## Extending the tool
 
 The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/edit/main/extension_guide.md).
 

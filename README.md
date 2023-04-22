@@ -11,6 +11,12 @@ Moreover, OSINT Compass uses machine learning technologies to help users identif
 ## Installation
 Installation currently is not very easy, since the tool consists of multiple services deployed on render.com and docker containers. A hosted instance can be found here: https://osint-compass-portal.onrender.com
 
+Basically what you would do is take the submodules and deploy them to render.com. OSINT-compass-engine as a web service and and OSINT-compass-portal as a static website. 
+
+For alerting you need to deploy a Postgresql datbase on render. Additionally you need something that can run cron jobs (on render they are paid only) and run the OSINT-compass-alert-cron in what ever intervall you want it to send out alerts. 
+
+To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
+
 ## Usage
 This sections includes detailed instructions for using the tool. If the tool has a command-line interface, include common commands and arguments, and some examples of commands and a description of the expected output. If the tool has a graphical user interface or a browser interface, include screenshots and describe a common workflow.
 

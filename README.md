@@ -6,6 +6,8 @@ This project was developed by [@her0marodeur](https://github.com/her0marodeur), 
 ## Tool Description
 OSINT Compass is a tool that allows users to collect, monitor, and analyze open-source information from various sources. It provides an integrated search engine to gather relevant information and a sentiment monitoring interface.
 
+Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. 
+
 ## Installation
 Installation currently is not very easy, since the tool consists of multiple services deployed on render.com and docker containers. A hosted instance can be found here: https://osint-compass-portal.onrender.com
 

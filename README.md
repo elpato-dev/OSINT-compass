@@ -38,7 +38,7 @@ The start page provides a search bar with three buttons below:
 
 ## Extending the tool
 
-The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/edit/main/extension_guide.md).
+The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/blob/main/extension_guide.md).
 
 ## Installation
 Installation currently is not very easy, since the tool consists of multiple services deployed on render.com and docker containers. A hosted instance can be found here: https://osint-compass-portal.onrender.com

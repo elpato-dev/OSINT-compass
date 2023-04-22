@@ -26,7 +26,7 @@ The start page provides a search bar with three buttons below:
       - real range of sentiment score is probably between -0.3 and 0.03
       - tweets are not filtered by relevance and may include offensive content
     - links to wikipedia articles related to the term
-      - a frequency count of words used in the news and tweets
+      - a frequency count of words used in the news and tweets (extend the card by clicking on it)
 - email: enter an email address in the format `email@domain.com`
      - get results form different sources
      - currently pingutils and spycloud since they need no API key and have no rate limiting

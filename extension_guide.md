@@ -42,6 +42,42 @@ def email_endpoint():
     return jsonify(result) # returns the result you retrieved as JSON as response to the request
 ```
 
+You can add your API endpoint in the same style and step one is done.
 
+## Adding a module
+
+Continuing with our email example let's look at the email modules implementation (emailgetter.py)
+
+```text
+import requests # import needed modules
+
+def get_email_data(email): # define method that will be imported and called in main.py
+    
+    # query spycloud
+    spycloud_response = requests.get("https://portal.spycloud.com/endpoint/enriched-stats/" + email)
+    spycloud_data = spycloud_response.json()
+
+    # query pingutil
+
+    pingutil_response = requests.get('https://api.eva.pingutil.com/email?email=' + email, verify=False)
+    pingutil_data = pingutil_response.json()
+
+    email_data = {
+        "sources":[
+            
+            {
+                "title": "spycloud",
+                "content": spycloud_data
+            },
+            {
+                "title": "pingutil",
+                "content": pingutil_data
+            }
+
+        ]
+    } ## formatting of the data in a format that the UI can handle
+    return email_data # returning the data (that is what the UI gets)
+
+```
 
 

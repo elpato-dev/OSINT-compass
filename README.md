@@ -18,7 +18,7 @@ For alerting you need to deploy a Postgresql datbase on render. Additionally you
 To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
 
 ## Usage
-The README of the repository OSINT-compass-engine has a detailed documentation of the API and its endpoints.
+The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.
 
 ## Additional Information
 Future ideas:

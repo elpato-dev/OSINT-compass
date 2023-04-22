@@ -66,4 +66,10 @@ Archictecture principles:
 - If you are only after data collection automation you could also use the API as a standalone service.
 
 ## Submodules
-This repository includes three submodules: the `OSINT-compass-engine`, `OSINT-compass-portal` and `OSINT-compass-API-cron` modules. The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass tool, which handles the API, data retrieval and storage, processing, and analysis. The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. The OSINT-compass-API-cron submodule includes Cron Jobs for alerting.
+This repository includes three submodules: the `OSINT-compass-engine`, `OSINT-compass-portal` and `OSINT-compass-API-cron` modules. 
+
+The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass tool, which handles the API, data retrieval and storage, processing, and analysis. 
+
+The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. 
+
+The OSINT-compass-API-cron submodule includes a Python script thought to be run as a cron job to send alerts. Currently it is implemented as an API to allow tesing of the alerting functionality.

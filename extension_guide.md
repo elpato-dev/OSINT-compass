@@ -1,6 +1,6 @@
 # OSINT-compass extension guide
 
-This page details how to integrate your own tool or API into OSINT-compass. If you have any questions or need help, please contact us. You can open a pull request with new festures or ceate an issue for ideas.
+This page details how to integrate your own tool or API into OSINT-compass. If you have any questions or need help, please contact us. You can open a pull request with new features or ceate an issue for ideas.
 
 ## General design
 

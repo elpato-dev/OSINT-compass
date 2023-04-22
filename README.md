@@ -27,7 +27,7 @@ The start page provides a search bar with three buttons below:
       - tweets are not filtered by relevance and may include offensive content
     - links to wikipedia articles related to the term
       - a frequency count of words used in the news and tweets
-- email: enter an email address in the format email@domain.com
+- email: enter an email address in the format 'email@domain.com'
      - get results form different sources
      - currently pingutils and spycloud since they need no API key and have no rate limiting
      - can be easily extended with other sources like emailrep and HaveIBeenPwned

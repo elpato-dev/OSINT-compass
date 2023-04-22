@@ -53,6 +53,8 @@ import requests # import needed modules
 
 def get_email_data(email): # define method that will be imported and called in main.py
     
+    # do the necessary data collection
+    
     # query spycloud
     spycloud_response = requests.get("https://portal.spycloud.com/endpoint/enriched-stats/" + email)
     spycloud_data = spycloud_response.json()
@@ -61,7 +63,9 @@ def get_email_data(email): # define method that will be imported and called in m
 
     pingutil_response = requests.get('https://api.eva.pingutil.com/email?email=' + email, verify=False)
     pingutil_data = pingutil_response.json()
-
+    
+    # formatting of the data in a format that the UI can handle
+    
     email_data = {
         "sources":[
             
@@ -75,9 +79,30 @@ def get_email_data(email): # define method that will be imported and called in m
             }
 
         ]
-    } ## formatting of the data in a format that the UI can handle
+    } 
     return email_data # returning the data (that is what the UI gets)
 
 ```
 
+While other JSON structures can be implemented in the UI the following is the easiest way for now. 
+It will create a simple card style layout in the frontend.:
+
+```text
+{
+        "sources":[
+            
+            {
+                "title": <will be title of card>,
+                "content": <will be content of card>
+            }, ... (how ever many cards of the format above you want)
+
+        ]
+    } 
+```text
+
+Note that this card has not much formatting besides title and content, so please do not put too much stuff into the content.
+
+And that is it, the API is now exposing your tool:
+
+'https://<apiurl>/<name of your endpoint>?<query param>=<value of param>&apikey=<your api key>'
 

@@ -45,7 +45,7 @@ We provide links to guides that explain how to do it:
 1. clone the repo `git clone https://github.com/elpato-dev/OSINT-compass-alert-cron.git` from [here](https://github.com/elpato-dev/OSINT-compass-alert-cron)
 
 2. install the requirements `pip install -r requirements.txt`
-3. exchange the url of your API endpoint in line 28 in th alerter.py
+3. exchange the url of your API endpoint in line 28 in the [alerter.py](https://github.com/elpato-dev/OSINT-compass-alert-cron/blob/main/alerter.py)
 
 4. uncomment the last two lines from api.py so it looks like this:
   ```plaintext

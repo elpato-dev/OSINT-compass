@@ -41,6 +41,10 @@ The start page provides a search bar with three buttons below:
      - get results form different sources
      - currently checks for robots.txt, subdomains and if it is listed on the waybackmachine
      - can be easily extended with other sources
+- snscrape: enter a term that will be searched on reddit
+     - get reddit results
+     - get sentiment score
+     - not filtered so might include offensive content
      
 ### Alerting
 

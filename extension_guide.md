@@ -182,4 +182,6 @@ If you want to define your own display-page do the following.
 #### Step 1:
 Add a component to handel the displaying of the data.
 #### Step 2:
-Add the component to the SearchPageComponent's html. ResultDate can be passed via import. Look into SnscrapeDisplayComponent for a implemented example.
+Add the component to the [SearchComponent](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/app/search-page/search-page.component.ts)'s [html](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/app/search-page/search-page.component.html). 
+#### Step 3:
+ResultData can be passed via import. Look into [SnscrapeDisplayComponent](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/app/result-page/snscrape-display/) for a implemented example.

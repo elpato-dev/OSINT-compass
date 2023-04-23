@@ -44,7 +44,7 @@ To use the altering functionality of your web project, please follow these steps
 
 1. Set up a Telegram bot and obtain your Telegram Bot Token.
 
-2. Enter your Telegram Bot Token into the local .env file by adding the following line: `TELEGRAM_BOT_TOKEN=<YOUR_TOKEN_HERE>`
+2. Enter your Telegram Bot Token into the local .env file of the OSINT-compass-alert-cron by adding the following line: `TELEGRAM_BOT_TOKEN=<YOUR_TOKEN_HERE>` 
 
 3. To set an alert for a specific search term, enter the following information:
    - Search term: The term for which you want to monitor the Sentiment Score.

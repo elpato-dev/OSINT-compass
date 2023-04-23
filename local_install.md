@@ -43,18 +43,19 @@ We provide links to guides that explain how to do it:
 1. clone the repo `git clone https://github.com/elpato-dev/OSINT-compass-alert-cron.git` from [here](https://github.com/elpato-dev/OSINT-compass-alert-cron)
 
 2. install the requirements `pip install -r requirements.txt`
+3. exchange the url of your API endpoint in line 28 in th alerter.py
 
-3. uncomment the last two lines from api.py so it looks like this:
+4. uncomment the last two lines from api.py so it looks like this:
   ```plaintext
  #remove before deploying on render
  if __name__ == '__main__':
      app.run(port=1337)
   ```
-4. Copy the contents of [example_env.txt](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/example_env.txt) into a `.env` file and fill in the needed information. The API key that is used for accessing the engine API is also used for protecting the alerter API
-5. Run the app `python3 main.py` .
-6. It now should be locally available on `http://127.0.0.1:1337` 
-7. You can trigger alerts via `http://127.0.0.1:1337/alert?apikey=<your api key>`
-8. To run alerts setup something that periodically calls the alert API endpoint. (e.g. a cron job)
+5. Copy the contents of [example_env.txt](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/example_env.txt) into a `.env` file and fill in the needed information. The API key that is used for accessing the engine API is also used for protecting the alerter API
+6. Run the app `python3 main.py` .
+7. It now should be locally available on `http://127.0.0.1:1337` 
+8. You can trigger alerts via `http://127.0.0.1:1337/alert?apikey=<your api key>`
+9. To run alerts setup something that periodically calls the alert API endpoint. (e.g. a cron job)
 
 
 ## OSINT-compass-portal

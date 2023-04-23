@@ -17,7 +17,21 @@ Furthermore it provides basic sentiment analysis:
 
 ### E-Mail search
 
+The email search functionality lets you see basic data for an email address.
+
+- Pingutil: displays basic info about the email
+- Spycloud: provides basic breach occurence data of the provided email address and its domain
+
+![image](https://user-images.githubusercontent.com/101996103/233843376-736a382c-dd3c-4c70-b63d-5fb1f9c66f01.png)
+
+
 ### Domain search
+
+The domain search functionality provides basic information on a domain:
+- If it has a robots.txt it will be displayed
+- If the URL was indexed by waybackmachine you can click on the latest index of it
+
+![image](https://user-images.githubusercontent.com/101996103/233843396-f1253282-880d-4da2-aa55-0afd6ac348d9.png)
 
 
 ## The alerting functionality 

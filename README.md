@@ -24,9 +24,9 @@ A full tour of the hosted version can be found [here](https://github.com/elpato-
 ### Start Page
 
 The start page provides a search bar with three buttons below:
-- term: just enter a term like `brazil` or `america president` (can be without the quotes)
+- term: just enter a term like `brazil` or `america president`
   - results:
-    - recent news from news API, with an overall sentiment score between -1(negative) and 1(positve)
+    - recent news from news API, with an overall sentiment score between -1 (negative) and 1 (positve)
       - real range of sentiment score is probably between -0.3 and 0.03
     - recent tweets from Twitter API, with an overall sentiment score between -1(negative) and 1(positve)
       - real range of sentiment score is probably between -0.3 and 0.03

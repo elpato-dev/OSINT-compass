@@ -17,13 +17,13 @@ The tool consists of the following parts:
 
 The following image tries to illustrate the architecture
 
-![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/architecture.PNG)
+![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/architecture.png)
 
 ## Extending the API
 
 First here is another beautiful image of how our modules are integrated with eachother:
 
-![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/modules_engine.PNG)
+![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/modules_engine.png)
 
 The arrows show which module feeds data to which other module.
 

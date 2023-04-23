@@ -122,46 +122,64 @@ The following example shows how it will be done:
 
 ## Extending the UI
 
+
 The UI can be extened in many ways. One that we want to highlight, is the very easy option to add new, simple search modules.
+
+### Adding an endpoint
 
 Go to the [search-page.compnent.ts](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/app/search-page/search-page.component.ts)
 
+#### Step 1 :
 Add a string for your tool to the categories list. This will be the name of the button that will be added below the searchbar:
 
 ```plaintext
-export class SearchPageComponent implements OnInit {
-  @Output() startSearch: EventEmitter<{ term: string, endpoint: string }> = new EventEmitter<{ term: string, endpoint: string }>();
-
-  searchQuery = '';
-  suggestions: any;
-
-  searchTerms = new Subject<string>();
-
-  selectedCategory : any = undefined;
-  categories: string[] = [
+   categories: string[] = [
     "Term",
     "E-Mail",
     "Domain",
-    "<name of yout tool>" # only edit needed here
-    
-  ];
+    "snscrape"
+   ];
 ```
-
-And as a second change in the same file you need to add the name of your API endpoint to the following switch statement:
+#### Step 2 :
+Add your tool to the switch statement. Here you define the endpoint-name and how your results are displayed.
 
 ```plaintext
-    let endpoint = "";
-      switch (this.selectedCategory) {
-        case "Term" : endpoint = "term"; break;
-        case "E-Mail" : endpoint = "email"; break;
-        case "Domain" : endpoint = "domain"; break;
-        case "<name of yout tool>" : endpoint = "<endpoint name>"; break; # only edit needed here
-      }
-    this.startSearch.emit({term: this.searchQuery, endpoint:  endpoint});
+   switch (this.selectedCategory) {
+     case "Term" : endpoint = "term"; display = "term"; break;
+     case "E-Mail" : endpoint = "email"; display = "recursive"; break;
+     case "Domain" : endpoint = "domain"; display = "recursive"; break;
+     case "snscrape" : endpoint = "snscrape"; display = "snscrape"; break;
+   }
+```
+#### Step 3 (optional) :
+
+To change paramter-style of your endpoint you have to add a case to the swtich statement in the Compass-Service [compass-api.service.ts ](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/services/compassapi/compass-api.service.ts)
+
+```plaintext
+   switch (endpoint) {
+     case "snscrape" :
+      url = this.baseURL + '/' + endpoint + '?term=' + term + '&entries=10&reddit=true&apikey=' + this.apikey;
+      break;
+    default :
+      url = this.baseURL + '/' + endpoint + '?' + endpoint + '=' + term + '&apikey=' + this.apikey;
+      break;
+   }
 ```
 
 This will result in the frontend making an API request like the following `<your api url>/<endpoint name>?<endpoint name>=<what is entered in the search field>`
 
 Notice that the endpoint name and name of the parameter have to be the same and it currently only supports one parameter. The frontend expects a response in the JSON format shown [here](#JSON).
 
+### Adding a display-page
 
+There are already three display-pages implemented.
+  - term
+  - recursive (recommended)
+  - snscrape
+
+If you want to define your own display-page do the following.
+
+#### Step 1:
+Add a component to handel the displaying of the data.
+#### Step 2:
+Add the component to the SearchPageComponent's html. ResultDate can be passed via import. Look into SnscrapeDisplayComponent for a implemented example.

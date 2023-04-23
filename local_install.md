@@ -8,17 +8,17 @@ We provide links to guides that explain how to do it:
 
 - Telegram Bot: https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot
 - Postgesql database: https://1kevinson.com/how-to-create-a-postgres-database-in-docker/
-   -you also need to create the following table:
-   ```plaintext
-   CREATE TABLE alerts (
-    id SERIAL PRIMARY KEY,
-    term VARCHAR NOT NULL,
-    scorelt NUMERIC(3,1),
-    scoregt NUMERIC(3,1),
-    contact_method VARCHAR,
-    contact_details VARCHAR
-  );
-   ```
+      -you also need to create the following table:
+      ```plaintext
+      CREATE TABLE alerts (
+       id SERIAL PRIMARY KEY,
+       term VARCHAR NOT NULL,
+       scorelt NUMERIC(3,1),
+       scoregt NUMERIC(3,1),
+       contact_method VARCHAR,
+       contact_details VARCHAR
+     );
+      ```
 
 ## OSINT-compass-engine
 

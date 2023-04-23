@@ -10,16 +10,17 @@ We provide links to guides that explain how to do it:
 - Postgesql database: https://1kevinson.com/how-to-create-a-postgres-database-in-docker/
  
  You also need to create the following table:
-      ```plaintext
-      CREATE TABLE alerts (
-       id SERIAL PRIMARY KEY,
-       term VARCHAR NOT NULL,
-       scorelt NUMERIC(3,1),
-       scoregt NUMERIC(3,1),
-       contact_method VARCHAR,
-       contact_details VARCHAR
-     );
-      ```
+ 
+ ```plaintext
+ CREATE TABLE alerts (
+  id SERIAL PRIMARY KEY,
+  term VARCHAR NOT NULL,
+  scorelt NUMERIC(3,1),
+  scoregt NUMERIC(3,1),
+  contact_method VARCHAR,
+  contact_details VARCHAR
+);
+ ```
 
 ## OSINT-compass-engine
 

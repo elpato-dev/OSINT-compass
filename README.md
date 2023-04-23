@@ -120,3 +120,17 @@ The `OSINT-compass-portal` submodule provides a user-friendly interface to inter
 The `OSINT-compass-API-cron` submodule includes a Python script thought to be run as a cron job to send alerts. Currently it is implemented as an API to allow tesing of the alerting functionality.
 
 All three submodules point to a working version (commit) of the corresponding respository. The main branches of the repositories may differ from that working version (commit). 
+
+## Acknowledgments
+
+This tool would not be possible wothout the other tools and APIs it is using. 
+We are thankful for their contribution to the OSINT community.
+
+The tool uses snscrape: https://github.com/JustAnotherArchivist/snscrape
+
+The tool queries the following websites and APIs:
+- Waybackmachine: https://web.archive.org/
+- Spycloud: https://spycloud.com/
+- ECA pingutil: https://eva.pingutil.com/
+- NewsAPI: https://newsapi.org
+- Twitter: https://twitter.com

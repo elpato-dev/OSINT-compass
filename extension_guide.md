@@ -119,3 +119,50 @@ The following example shows how it will be done:
 
 ![card_creation](https://github.com/elpato-dev/OSINT-compass/blob/main/images/card_creation.png)
 
+## Extending the UI
+
+The UI can be extened in many ways. One that we want to highlight, is the insanely option to add new, simple search modules.
+
+It literally takes only two lines of code
+
+Go to the [search-page.compnent.ts](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/app/search-page/search-page.component.ts)
+
+Add a string for your tool to the categories list. This will be the name of the button that will be added below the searchbar:
+
+```plaintext
+export class SearchPageComponent implements OnInit {
+  @Output() startSearch: EventEmitter<{ term: string, endpoint: string }> = new EventEmitter<{ term: string, endpoint: string }>();
+
+  searchQuery = '';
+  suggestions: any;
+
+  searchTerms = new Subject<string>();
+
+  selectedCategory : any = undefined;
+  categories: string[] = [
+    "Term",
+    "E-Mail",
+    "Domain",
+    "<name of yout tool>" # only edit needed here
+    
+  ];
+```
+
+And as a second change in the same file you need to add the name of your API endpoint to the following switch statement:
+
+```plaintext
+    let endpoint = "";
+      switch (this.selectedCategory) {
+        case "Term" : endpoint = "term"; break;
+        case "E-Mail" : endpoint = "email"; break;
+        case "Domain" : endpoint = "domain"; break;
+        case "<name of yout tool>" : endpoint = "<endpoint name>"; break; # only edit needed here
+      }
+    this.startSearch.emit({term: this.searchQuery, endpoint:  endpoint});
+```
+
+This will result in the frontend making an API request like the following `<your api url>/<endpoint name>?<endpoint name>=<what is entered in the search field>`
+
+Notice that the endpoint name and name of the parameter have to be the same and it currently only supports one parameter.
+
+

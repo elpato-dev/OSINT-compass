@@ -108,6 +108,8 @@ And that is it, the API is now exposing your tool:
 https://<apiurl>/<name of your endpoint>?<query param>=<value of param>&apikey=<your api key>
 ```
 
+Note: For the email and domain functionality (and any other future functionality that uses that simple card style) adding new sources is very easy. Since the UI already dynamically adds all the JSON objects from the sources list, you can just query your source in the python script that gets the data. Then you only need to add it tho the sources list as explained above and the UI will display it in that defined card format.
+
 ## Creation of simple cards
 
 When the frontend application is receiving a JSOn input like shown above it has the ability to loop through all the JSON objects in the sources list.

@@ -1,6 +1,6 @@
 # OSINT-compass
 
-![logo](https://github.com/elpato-dev/OSINT-compass/blob/main/images/logo.pngg)
+![logo](https://github.com/elpato-dev/OSINT-compass/blob/main/images/logo.png)
 
 ## Team Members
 This project was developed by [@her0marodeur](https://github.com/her0marodeur), [@elutac](https://github.com/elutac) and [@FlexusDev](https://github.com/FlexusDev). We welcome contributions from the open-source community. If you have any questions or suggestions, please feel free to open an issue or submit a pull request. Thank you for your interest in OSINT-compass!

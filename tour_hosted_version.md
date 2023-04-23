@@ -33,6 +33,13 @@ The domain search functionality provides basic information on a domain:
 
 ![image](https://user-images.githubusercontent.com/101996103/233843396-f1253282-880d-4da2-aa55-0afd6ac348d9.png)
 
+### snscrape
+This functionality shows that other tools can be integrated in our tool. Currently only the reddit functionality of snscrape is available, since many other functionalities are currently broken.
+
+The snscrape functionality provides reddit posts for the term you specify:
+- information about the post
+- post content
+- sentiment analysis
 
 ## The alerting functionality 
 

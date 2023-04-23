@@ -39,6 +39,8 @@ The domain search functionality provides basic information on a domain:
 When you press the "ALERT ME" button in the top right corner the alert dialog will open.
 Currently alerting only supports telegram.
 
+The alerts will be send out every hour at xx:18 but you can trigger them manually here https://osint-compass-alerter.onrender.com/alert?apikey=mysuperkey .
+
 **IMPORTANT: To receive alerts on telegram please start a chat with @osintcompassbot on Telegram.**
 
 ![image](https://user-images.githubusercontent.com/101996103/233840173-5b79e9f8-8f9f-425e-a04d-f0b972a0de21.png)

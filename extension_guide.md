@@ -46,7 +46,7 @@ You can add your API endpoint in the same style and step one is done.
 
 ## Adding a module
 
-Continuing with our email example let's look at the email modules implementation ([emailgetter.py](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/emailgetter.py))
+Continuing with our email example let's look at the email modules implementation ([emailgetter.py](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/emailgetter.py)) (The current implementation looks a bit different from this one, but as this one is easier, we explain it using this one)
 
 ```text
 import requests # import needed modules

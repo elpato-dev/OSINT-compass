@@ -62,7 +62,7 @@ We provide links to guides that explain how to do it:
 
 1. Clone the code from [here](https://github.com/elpato-dev/OSINT-compass-portal) `git clone https://github.com/elpato-dev/OSINT-compass-portal.git`
 2. Run `npm install` in the root directory of the project
-3. edit the `baseURL` and `apikey` to match your API endpoint in the [environment.ts](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/environments/environment.ts)
-4. Run `npm start` in the root directory of the project
-5. The project will be available on 127.0.0.1:4200
+3. edit the `baseURL` and `apikey` to match your API endpoint in the [environment.ts] . (https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/environments/environment.ts)
+4. Run `npm start` in the root directory of the project.
+5. The project will be available on 127.0.0.1:4200.
 6. If you wnat to deploy it for production, check [this](https://angular.io/guide/deployment).

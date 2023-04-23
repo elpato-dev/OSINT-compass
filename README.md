@@ -98,6 +98,7 @@ Future ideas:
 - other alert channels
 - adding closed APIs like haveibeenpwned and checks if they are used
 - adding a telegram bot that allows to query the API
+- implement dark mode
 
 Limitations:
 - Self hosting the tool is possible but was not documented during the bellingcat hackathon, since it is currently quite some effort.

@@ -123,6 +123,9 @@ All three submodules point to a working version (commit) of the corresponding re
 
 ## Acknowledgments
 
+We would like to thank Bellingcat for hosting the exciting hackathon during which the tool was created. 
+They provided a lot of valuable feedback and we hope our tool can help with the amazing work they are doing.
+
 This tool would not be possible wothout the other tools and APIs it is using. 
 We are thankful for their contribution to the OSINT community.
 

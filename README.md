@@ -1,10 +1,10 @@
-# OSINT Compass
+# OSINT-compass
 
 ## Team Members
-This project was developed by [@her0marodeur](https://github.com/her0marodeur), [@elutac](https://github.com/elutac) and [@FlexusDev](https://github.com/FlexusDev). We welcome contributions from the open-source community. If you have any questions or suggestions, please feel free to open an issue or submit a pull request. Thank you for your interest in OSINT Compass!
+This project was developed by [@her0marodeur](https://github.com/her0marodeur), [@elutac](https://github.com/elutac) and [@FlexusDev](https://github.com/FlexusDev). We welcome contributions from the open-source community. If you have any questions or suggestions, please feel free to open an issue or submit a pull request. Thank you for your interest in OSINT-compass!
 
 ## Tool Description
-OSINT Compass is a tool that allows users to collect, monitor, and analyze open-source information from various sources. It provides an integrated search engine to gather relevant information and a sentiment monitoring interface.
+OSINT-compass is a tool that allows users to collect, monitor, and analyze open-source information from various sources. It provides an integrated search engine to gather relevant information and a sentiment monitoring interface.
 
 Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. If you want you can also selfhost it (not straight forward yet).
 
@@ -69,7 +69,7 @@ Archictecture principles:
 ## Submodules
 This repository includes three submodules: the `OSINT-compass-engine`, `OSINT-compass-portal` and `OSINT-compass-API-cron` modules. 
 
-The `OSINT-compass-engine` submodule contains the backend of the OSINT Compass tool, which handles the API, data retrieval and storage, processing, and analysis. 
+The `OSINT-compass-engine` submodule contains the backend of the OSINT-compass tool, which handles the API, data retrieval and storage, processing, and analysis. 
 
 The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. 
 

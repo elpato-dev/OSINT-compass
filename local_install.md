@@ -24,7 +24,7 @@ We provide links to guides that explain how to do it:
 );
  ```
 
-## OSINT-compass-engine
+## OSINT-compass Engine
 
 1. clone the repo `git clone https://github.com/elpato-dev/OSINT-compass-engine.git` from [here](https://github.com/elpato-dev/OSINT-compass-engine)
 
@@ -40,7 +40,7 @@ We provide links to guides that explain how to do it:
 5. Run the app `python3 main.py` .
 6. It now should be locally available on `http://127.0.0.1:5000` 
 
-## OSINT-compass-alert-cron
+## OSINT-compass Alerter
 
 1. clone the repo `git clone https://github.com/elpato-dev/OSINT-compass-alert-cron.git` from [here](https://github.com/elpato-dev/OSINT-compass-alert-cron)
 
@@ -60,7 +60,7 @@ We provide links to guides that explain how to do it:
 9. To run alerts setup something that periodically calls the alert API endpoint. (e.g. a cron job)
 
 
-## OSINT-compass-portal
+## OSINT-compass Portal
 
 1. Clone the code from [here](https://github.com/elpato-dev/OSINT-compass-portal) `git clone https://github.com/elpato-dev/OSINT-compass-portal.git`
 2. Run `npm install` in the root directory of the project

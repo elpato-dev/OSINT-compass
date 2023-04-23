@@ -41,6 +41,8 @@ Currently alerting only supports telegram.
 
 The alerts will be send out every hour at xx:18 but you can trigger them manually here https://osint-compass-alerter.onrender.com/alert?apikey=mysuperkey .
 
+You can only alert for lesser than or gretaer than or both but currently the API needs input for both. So please input 1 for greater than, if you only want an alert for lesser than. Also input -1 for lesser than, if you wnat no alert for lesser than. In the other field input the desired value. Keep in mind that realistic ranges are between -0.3 and 0.3.
+
 **IMPORTANT: To receive alerts on telegram please start a chat with @osintcompassbot on Telegram.**
 
 ![image](https://user-images.githubusercontent.com/101996103/233840173-5b79e9f8-8f9f-425e-a04d-f0b972a0de21.png)

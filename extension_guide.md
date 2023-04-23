@@ -15,13 +15,13 @@ The tool consists of the following parts:
   - has to be configured to run periodically to check the database for alerts and send alerts out, when the criteria is met
   - written in Python
 
-The following image tries to illustrate the architecture
+The following image illustrates the architecture:
 
 ![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/architecture.png)
 
 ## Extending the API
 
-First here is another beautiful image of how our modules are integrated with eachother:
+The following diagram shows the integration of the modules:
 
 ![oc_modules](https://github.com/elpato-dev/OSINT-compass/blob/main/images/modules_engine.png)
 
@@ -112,7 +112,7 @@ Note: For the email and domain functionality (and any other future functionality
 
 ## Creation of simple cards
 
-When the frontend application is receiving a JSOn input like shown above it has the ability to loop through all the JSON objects in the sources list.
+When the frontend application is receiving a JSON input like shown above it has the ability to loop through all the JSON objects in the sources list.
 It will create a card for each JSON object. The title will be used as the title for the card. The frontend will try to unravel to JSON in `content` and find a way to display it nicely.
 
 The following example shows how it will be done:

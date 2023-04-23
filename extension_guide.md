@@ -111,7 +111,7 @@ https://<apiurl>/<name of your endpoint>?<query param>=<value of param>&apikey=<
 
 Note: For the email and domain functionality (and any other future functionality that uses that simple card style) adding new sources is very easy. Since the UI already dynamically adds all the JSON objects from the sources list, you can just query your source in the python script that gets the data. Then you only need to add it tho the sources list as explained above and the UI will display it in that defined card format.
 
-## Creation of simple cards
+## Creation of simple cards (recursive display)
 
 When the frontend application is receiving a JSON input like shown above it has the ability to loop through all the JSON objects in the sources list.
 It will create a card for each JSON object. The title will be used as the title for the card. The frontend will try to unravel to JSON in `content` and find a way to display it nicely.
@@ -122,9 +122,7 @@ The following example shows how it will be done:
 
 ## Extending the UI
 
-The UI can be extened in many ways. One that we want to highlight, is the insanely option to add new, simple search modules.
-
-It literally takes only two lines of code
+The UI can be extened in many ways. One that we want to highlight, is the very easy option to add new, simple search modules.
 
 Go to the [search-page.compnent.ts](https://github.com/elpato-dev/OSINT-compass-portal/blob/main/src/app/search-page/search-page.component.ts)
 

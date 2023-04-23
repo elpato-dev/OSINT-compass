@@ -1,6 +1,6 @@
 # Local installation guide for OSINT-compass
 
-OSINT-compass needs [Python](https://www.python.org/downloads/) with [pip](https://pypi.org/project/pip/) and [NodeJS with npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to be installed
+OSINT-compass needs [Python](https://www.python.org/downloads/) with [pip](https://pypi.org/project/pip/) and [NodeJS with npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to be installed.
 
 ## Setting up a postgres database and telegram bot
 

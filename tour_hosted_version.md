@@ -23,6 +23,6 @@ The following search features are implemented in the hosted version:
 When you press the "ALERT ME" button in the top right corner the alert dialog will open.
 Currently alerting only supports telegram.
 
-To receive alerts on telegram please start a chat with @osintcompassbot .
+**IMPORTANT: To receive alerts on telegram please start a chat with @osintcompassbot on Telegram.**
 
 

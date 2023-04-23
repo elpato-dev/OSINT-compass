@@ -18,11 +18,12 @@ The following search features are implemented in the hosted version:
 
 ## The alerting functionality 
 
-![image](https://user-images.githubusercontent.com/101996103/233840173-5b79e9f8-8f9f-425e-a04d-f0b972a0de21.png)
-
 When you press the "ALERT ME" button in the top right corner the alert dialog will open.
 Currently alerting only supports telegram.
 
 **IMPORTANT: To receive alerts on telegram please start a chat with @osintcompassbot on Telegram.**
+
+![image](https://user-images.githubusercontent.com/101996103/233840173-5b79e9f8-8f9f-425e-a04d-f0b972a0de21.png)
+
 
 

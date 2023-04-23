@@ -26,4 +26,7 @@ Currently alerting only supports telegram.
 ![image](https://user-images.githubusercontent.com/101996103/233840173-5b79e9f8-8f9f-425e-a04d-f0b972a0de21.png)
 
 
+You will get an alert like the following:
+
+![image](https://user-images.githubusercontent.com/101996103/233841791-ab9ce64b-2f9f-439a-a814-2fc01d44a105.png)
 

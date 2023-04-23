@@ -28,7 +28,7 @@ The start page provides a search bar with three buttons below:
   - results:
     - recent news from news API, with an overall sentiment score between -1 (negative) and 1 (positve)
       - real range of sentiment score is probably between -0.3 and 0.03
-    - recent tweets from Twitter API, with an overall sentiment score between -1(negative) and 1(positve)
+    - recent tweets from Twitter API, with an overall sentiment score between -1 (negative) and 1 (positve)
       - real range of sentiment score is probably between -0.3 and 0.03
       - tweets are not filtered by relevance and may include offensive content
     - links to wikipedia articles related to the term

@@ -35,6 +35,28 @@ The start page provides a search bar with three buttons below:
      - get results form different sources
      - currently checks for robots.txt, subdomains and if it is listed on the waybackmachine
      - can be easily extended with other sources
+     
+### Alerting
+
+To use the altering functionality of your web project, please follow these steps:
+
+1. Set up a Telegram bot and obtain your Telegram Bot Token.
+
+2. Enter your Telegram Bot Token into the local .env file by adding the following line: `TELEGRAM_BOT_TOKEN=<YOUR_TOKEN_HERE>`
+
+3. To set an alert for a specific search term, enter the following information:
+   - Search term: The term for which you want to monitor the Sentiment Score.
+   - Communication channel: At the moment, only Telegram is supported
+   - Communication channel information: Enter the Chat ID where you want to receive the alerts
+   - Trigger values: Enter the values that should trigger the alert
+   
+4. Once you have entered all the necessary information, you need to run the cronjob as described in `local_install.md`. The cronjob will periodically check for the trigger values and send alerts to your designated Telegram chat when the values are met.
+
+Note: Please ensure that the Telegram bot has the necessary permissions to send messages to the designated chat.
+
+If everything worked fine, you should be able to recieve alerts like this:
+
+![telegram_alerts](https://github.com/elpato-dev/OSINT-compass/blob/main/images/telegram_alerts.png)
 
 ## Extending the tool
 

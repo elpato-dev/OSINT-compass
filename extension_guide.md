@@ -83,6 +83,7 @@ def get_email_data(email): # define method that will be imported and called in m
     return email_data # returning the data (that is what the UI gets)
 
 ```
+<a name="JSON"></a>
 
 While other JSON structures can be implemented in the UI the following is the easiest way for now. 
 It will create a simple card style layout in the frontend.:
@@ -163,6 +164,6 @@ And as a second change in the same file you need to add the name of your API end
 
 This will result in the frontend making an API request like the following `<your api url>/<endpoint name>?<endpoint name>=<what is entered in the search field>`
 
-Notice that the endpoint name and name of the parameter have to be the same and it currently only supports one parameter.
+Notice that the endpoint name and name of the parameter have to be the same and it currently only supports one parameter. The frontend expects a response in the JSON format shown [here](#JSON).
 
 

@@ -64,6 +64,8 @@ If everything worked fine, you should be able to recieve alerts like this:
 
 ![telegram_alerts](https://github.com/elpato-dev/OSINT-compass/blob/main/images/telegram_alerts.png)
 
+If you want to trigger the alert checking manually just send a get request to this URL: `/alert?apikey=<your-api-key>`.
+
 ## Extending the tool
 
 The tool was designed with extensibility in mind. Check out the guide on how to extend it [here](https://github.com/elpato-dev/OSINT-compass/blob/main/extension_guide.md).

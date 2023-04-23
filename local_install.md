@@ -8,7 +8,7 @@ We provide links to guides that explain how to do it:
 
 - Telegram Bot: https://sendpulse.com/knowledge-base/chatbot/telegram/create-telegram-chatbot
 - Postgesql database: https://1kevinson.com/how-to-create-a-postgres-database-in-docker/
-      -you also need to create the following table:
+ You also need to create the following table:
       ```plaintext
       CREATE TABLE alerts (
        id SERIAL PRIMARY KEY,

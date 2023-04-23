@@ -9,6 +9,10 @@ The following search features are implemented in the hosted version:
 
 ### Term search
 
+The term search functionality lets you see recent news and tweets for the term you enter as well as related links from wikipedia.
+Furthermore it provides basic sentiment analysis:
+
+![image](https://user-images.githubusercontent.com/101996103/233843091-461378f4-83f8-4558-bb22-f875f1f3bfdf.png)
 
 
 ### E-Mail search

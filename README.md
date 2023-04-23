@@ -60,7 +60,7 @@ To use the altering functionality of your web project, please follow these steps
    - Communication channel information: Enter the Chat ID where you want to receive the alerts
    - Trigger values: Enter the values that should trigger the alert
    
-You can only alert for lesser than or gretaer than or both but currently the API needs input for both. So please input 1 for greater than, if you only want an alert for lesser than. Also input -1 for lesser than, if you want to only alert for greater than. In the other field input the desired value. Keep in mind that realistic ranges are between -0.3 and 0.3.
+You can only alert for lesser than or greater than or both but currently the API needs input for both. So please input 1 for greater than, if you only want an alert for lesser than. Also input -1 for lesser than, if you want to only alert for greater than. In the other field input the desired value. Keep in mind that realistic ranges are between -0.3 and 0.3.
    
 4. Once you have entered all the necessary information, you need to run the cronjob as described in `local_install.md`. The cronjob will periodically check for the trigger values and send alerts to your designated Telegram chat when the values are met.
 

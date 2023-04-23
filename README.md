@@ -12,7 +12,7 @@ Its main purpose is to allow organizations to provide an easy to use, easy to ex
 
 The alerting capabilities also make it easy for researchers to keep an eye on a multitude of topics and be alerted on relevant changes.
 
- We would absolutely love, if you would integrate your own tools or APIs into OSINT-compass. <3 
+We would absolutely love, if you would integrate your own tools or APIs into OSINT-compass. <3 
 
 ## Usage
 The README of the repository [OSINT-compass-engine](https://github.com/elpato-dev/OSINT-compass-engine/blob/main/README.md) has a detailed documentation of the API and its endpoints.
@@ -104,3 +104,5 @@ The `OSINT-compass-engine` submodule contains the backend of the OSINT-compass t
 The `OSINT-compass-portal` submodule provides a user-friendly interface to interact with the tool. 
 
 The `OSINT-compass-API-cron` submodule includes a Python script thought to be run as a cron job to send alerts. Currently it is implemented as an API to allow tesing of the alerting functionality.
+
+All three submodules point to a working version (commit) of the corresponding respository. The main branches of the repositories may differ from that working version (commit). 

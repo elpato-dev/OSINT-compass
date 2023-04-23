@@ -10,6 +10,8 @@ OSINT-compass is a tool that allows users to collect, monitor, and analyze open-
 
 Its main purpose is to allow organizations to provide an easy to use, easy to extend, graphical tool to researchers. If you want you can also selfhost it (not straight forward yet).
 
+The alerting capabilities also make it easy for researchers to keep an eye on a multitude of topics and be alerted on relevant changes.
+
  We would absolutely love, if you would integrate your own tools or APIs into OSINT-compass. <3 
 
 ## Usage

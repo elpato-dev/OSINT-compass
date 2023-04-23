@@ -17,7 +17,7 @@ The README of the repository [OSINT-compass-engine](https://github.com/elpato-de
 
 We hope the web interface on https://osint-compass-portal.onrender.com is self explanatory but we will provide some guidelines on how to use it.
 
-A full tur of the hosted version can be found [here](https://github.com/elpato-dev/OSINT-compass/blob/main/tour_hosted_version.md)
+A full tour of the hosted version can be found [here](https://github.com/elpato-dev/OSINT-compass/blob/main/tour_hosted_version.md)
 
 ### Start Page
 

@@ -47,6 +47,8 @@ Basically what you would do is take the submodules and deploy them to render.com
 
 For alerting you need to deploy a Postgresql datbase on render. Additionally you need something that can run cron jobs (on render they are paid only) and run the OSINT-compass-alert-cron in what ever intervall you want it to send out alerts. 
 
+For installing the tools locally we provide a guide [here](https://github.com/elpato-dev/OSINT-compass/blob/main/local_install.md) .
+
 To simplify this process in the future we plan on releasing a Docker image, that combines all the services.
 
 ## Additional Information
